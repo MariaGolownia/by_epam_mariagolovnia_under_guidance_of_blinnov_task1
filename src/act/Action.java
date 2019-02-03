@@ -41,7 +41,7 @@ public class Action {
 	}
 
 	// Сортировка пузырьком
-	public static void bubbleSortIncreasingOrder(List <Double> list){
+	public static void bubbleSortDecreasingOrder(List <Double> list){
 		if (list == null || list.size() == 0 || list.size() == 1) return;
 		else{
 			for(int i = 0;  i < list.size(); i++){
@@ -55,7 +55,7 @@ public class Action {
 		}
 	}
 	
-	public static void bubbleSortDecreasingOrder(List <Double> list){
+	public static void bubbleSortIncreasingOrder(List <Double> list){
 		if (list == null || list.size() == 0 || list.size() == 1) return;
 		else{
 			for(int i = 0;  i < list.size(); i++){

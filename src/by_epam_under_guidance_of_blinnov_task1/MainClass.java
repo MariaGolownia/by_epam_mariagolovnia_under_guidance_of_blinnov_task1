@@ -16,10 +16,10 @@ public class MainClass {
 		
 		Action.bubbleSortIncreasingOrder(listDouble);
 		System.out.println("Sorted array by bubble sort  in increasing order is " + listDouble.toString());
-		
+				
 		Action.bubbleSortDecreasingOrder(listDouble);
-		System.out.println("Sorted array by bubble sort  in decreasing order is " + listDouble.toString());
-		
+		System.out.println("Sorted array by bubble sort  in deccreasing order is " + listDouble.toString());
+			
 		Action.selectionSortinIncreasingOrder(listDouble);
 		System.out.println("Sorted array by selection sort  in increasing order is " + listDouble.toString());
 		

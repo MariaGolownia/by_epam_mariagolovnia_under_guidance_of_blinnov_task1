@@ -12,10 +12,8 @@ import exc.ValidationException;
 
 
 public class FileReading  {
-	
-	@SuppressWarnings("resource")
+
 	public List<Double> readFileDigitIntoString (String nameOfFile) throws ValidationException, IOException {
-		//work
 		List <Double> listDouble = new ArrayList<>(); //Основной массив
 		List <Double> listDoubleTemp;                 //Вспомогательный массив, который будем использовать для записи всех чисел в одной строке
 		final String CONSTANT_SPASE = " "; 
